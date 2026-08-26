@@ -1,0 +1,13 @@
+.search:focus-within,
+.sort:focus-within {
+  border-color: var(--acid);
+  box-shadow: 0 0 0 3px rgba(199, 255, 74, 0.16);
+}
+
+.tab:focus-visible,
+.result-row:focus-visible,
+.modal-close:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--acid);
+  outline-offset: 3px;
+}
